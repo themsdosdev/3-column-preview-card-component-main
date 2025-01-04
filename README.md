@@ -20,7 +20,8 @@
 
 # MOBILE
 
-![screencapture-127-0-0-1-5500-2025-01-04-19_32_49](https://github.com/user-attachments/assets/db495605-a065-4e92-acba-2d3599404b51)
+
+![iPhone 12 Pro-1736033672282](https://github.com/user-attachments/assets/13f525e0-1ba8-42f9-b33f-7336111df362)
 
 
 
