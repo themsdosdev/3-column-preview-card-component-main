@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+
+  /* Primary */
+
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral */
+
+  /* Typography */
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+  --Blue: hsl(228, 45%, 44%);
+}
+/* --------------------(Body)------------------------*/
+body {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: var(--Very-light-gray);
+}
+/* --------------------(Main)------------------------*/
+.main-container {
+  width: 325px;
+  margin: 87px auto 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+article {
+  width: 100%;
+  height: 440px;
+  padding: 48px;
+}
+
+#sedans {
+  background-color: var(--Bright-orange);
+}
+
+#suvs {
+  background-color: var(--Dark-cyan);
+}
+
+#luxury {
+  background-color: var(--Very-dark-cyan);
+}
+
+img {
+  margin-bottom: 36px;
+}
+
+h2 {
+  color: var(--Very-light-gray);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+p {
+  color: var(--Transparent-white);
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+/* --------------------(Footer)------------------------*/
+.attribution {
+  font-size: 0.733em;
+  text-align: center;
+}
+.attribution a {
+  color: var(--Blue);
+  text-decoration: none;
+}
+
+button {
+  width: 148px;
+  height: 46px;
+  border-radius: 45px;
+  border-style: none;
+  background-color: var(--Very-light-gray);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+#sedans-btn {
+  color: var(--Bright-orange);
+}
+
+#suvs-btn {
+  color: var(--Dark-cyan);
+}
+
+#luxury-btn {
+  color: var(--Very-dark-cyan);
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px solid var(--Very-light-gray);
+}
+
+#sedans-btn:hover {
+  background-color: var(--Bright-orange);
+  color: var(--Very-light-gray);
+}
+
+#suvs-btn:hover {
+  background-color: var(--Dark-cyan);
+  color: var(--Very-light-gray);
+}
+
+#luxury-btn:hover {
+  background-color: var(--Very-dark-cyan);
+  color: var(--Very-light-gray);
+}
+
+/* --------------------(Screen > 950px)------------------------*/
+@media only screen and (min-width: 950px) {
+  .main-container {
+    width: 924px;
+    display: flex;
+    margin-top: 170px;
+  }
+}
+article {
+  height: 500px;
+}
+
+p {
+  margin-bottom: 80px;
+}
